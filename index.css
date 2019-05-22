@@ -1,3 +1,43 @@
+html {
+  --dark: #131515; /* licorice */
+  --brown: #2B2C28; /* CHARLESTON green */
+  --green: #339989; /* zomp */
+  --blue-green: #7DE2D1; /* Pale robin egg blue */
+  --white: #FFFAFB; /* snow */
+}
+
+body {
+  background-color: var(--white);
+  margin: 0;
+}
+
 .index__nav {
+  align-items: center;
+  background-color: var(--brown);
+  color: var(--white);
   display: flex;
+  height: 15vh;
+  position: relative;
+  width: 100%;
+}
+
+.index__nav::after {
+  background-color: var(--green);
+  content: '';
+  height: 20px;
+  width: 100%;
+  margin-top: 7vh;
+  position: absolute;
+
+}
+
+.index__nav > ul {
+  display: flex;
+  flex: 1;
+  list-style: none;
+}
+
+.index__nav > ul > li {
+  flex: 4;
+  margin-left: 20px;
 }
