@@ -1,0 +1,22 @@
+{
+  "name": "showcase-of-algos",
+  "version": "1.0.0",
+  "description": "Showcase of algorithms I've done in an interactive environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alferguson/Showcase-of-algos.git"
+  },
+  "author": "alferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alferguson/Showcase-of-algos/issues"
+  },
+  "homepage": "https://github.com/Alferguson/Showcase-of-algos#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
